@@ -1,4 +1,4 @@
-// import Clarifai from 'clarifai'; 
+
 import { Component } from 'react';
 import ParticlesBg from 'particles-bg';
 import Navigation from './Components/Navigation/Navigation';
@@ -10,7 +10,6 @@ import Rank from './Components/Rank/Rank';
 import FaceDetection from './Components/FaceDetection/FaceDetection';
 import 'tachyons';
 import './App.css';
-// import { response } from 'express'; 
 
 const setUpClarfi = (imageUrl)=>{
    // Your PAT (Personal Access Token) can be found in the portal under Authentification
@@ -125,7 +124,7 @@ onSubmitButton =() => {
         .then(response => response.json())
         .then((response) => {
           if (response) {
-            fetch('http://localhost:3000/image',{
+            fetch('https://techgreatbrain-a4wy.onrender.com/image',{
               method: 'put',
               headers: {'Content-Type': 'application/json'},
              body: JSON.stringify({
