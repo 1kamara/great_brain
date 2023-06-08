@@ -124,7 +124,7 @@ onSubmitButton =() => {
         .then(response => response.json())
         .then((response) => {
           if (response) {
-            fetch('https://techgreatbrain-a4wy.onrender.com/image',{
+            fetch('https://frontendapp-vo2y.onrender.com/image',{
               method: 'put',
               headers: {'Content-Type': 'application/json'},
              body: JSON.stringify({
