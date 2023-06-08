@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/1kamara/great_brain.git/static/css/main.15318fb1.css",
+    "main.js": "/1kamara/great_brain.git/static/js/main.89b0197b.js",
+    "static/js/787.5a01f533.chunk.js": "/1kamara/great_brain.git/static/js/787.5a01f533.chunk.js",
+    "index.html": "/1kamara/great_brain.git/index.html",
+    "main.15318fb1.css.map": "/1kamara/great_brain.git/static/css/main.15318fb1.css.map",
+    "main.89b0197b.js.map": "/1kamara/great_brain.git/static/js/main.89b0197b.js.map",
+    "787.5a01f533.chunk.js.map": "/1kamara/great_brain.git/static/js/787.5a01f533.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15318fb1.css",
+    "static/js/main.89b0197b.js"
+  ]
+}
